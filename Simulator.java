@@ -1,4 +1,4 @@
-public class Simulation
+public class Simulator
 {
   private ArrayList<Weeds> weeds;
   private ArrayList<BeanPlant> beanPlants;
@@ -6,6 +6,8 @@ public class Simulation
   
   public Simulator()
   {
-    
+    weeds = new ArrayList<Weeds>();
+    beanPlants = new ArrayList<BeanPlant>();
+    farmers = new ArrayList<Farmer>();
   }
 }
