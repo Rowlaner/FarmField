@@ -2,7 +2,7 @@ public class Actor
 {
   private int age;
   private boolean alive = true;
-  private string actorType;
+  public String actorType;
   
   // (row, column)
   private Location location;
