@@ -4,6 +4,6 @@ public class BeanPlant extends Actor
   
   public BeanPlant()
   {
-    actor.actorType = ActorType.BeanPlant.ToString();
+    actor.actorType = ActorType.BeanPlant.toString();
   }
 }
