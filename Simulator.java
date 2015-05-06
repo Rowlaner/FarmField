@@ -4,6 +4,7 @@ public class Simulator
   private ArrayList<BeanPlant> beanPlants;
   private ArrayList<Farmer> farmers;
   
+  // Constructor for the Simulator class, it initialises the private arraylists of actors
   public Simulator()
   {
     weeds = new ArrayList<Weeds>();
