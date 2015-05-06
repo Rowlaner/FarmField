@@ -4,5 +4,8 @@ public class Simulation
   private ArrayList<BeanPlant> beanPlants;
   private ArrayList<Farmer> farmers;
   
-  
+  public Simulator()
+  {
+    
+  }
 }
