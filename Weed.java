@@ -7,6 +7,6 @@ public class Weed extends Actor
   
   public Weed()
   {
-    actor.actorType = ActorType.Weed.ToString();
+    actor.actorType = ActorType.Weed.toString();
   }
 }
