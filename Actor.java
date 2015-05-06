@@ -18,4 +18,13 @@ public class Actor
     Weed,
     Farmer
   }
+  
+  // updates the alive indicator for weeds and beanplant
+  public void UpdateActorAliveStatus(boolean newStatus)
+  {
+    if(actorType == "BeanPlant" || actorType == "Weed")
+    {
+      alive = newStatus;  
+    }
+  }
 }
