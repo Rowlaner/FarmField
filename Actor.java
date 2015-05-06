@@ -3,6 +3,7 @@ public class Actor
   private int age;
   private boolean alive = true;
   public String actorType;
+  public static final int plantMaximumAge = 150;
   
   // (row, column)
   private Location location;
