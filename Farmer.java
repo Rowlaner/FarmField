@@ -1,10 +1,10 @@
-public class Farmer 
+public class Farmer extends Actor
 {
     private Actor actor;
   
     public Farmer()
     {
-        actor.actorType = ActorType.Farmer.ToString();
+        actor.actorType = ActorType.Farmer.toString();
     }
     
     public void move()
