@@ -13,4 +13,16 @@ public class Simulator
     beanPlants = new ArrayList<BeanPlant>();
     farmers = new ArrayList<Farmer>();
   }
+  
+  // give each actor a random starting point
+  public void Populate()
+  {
+    TODO..
+  }
+  
+  // iterates of populations of bean plants, weeds and farmers
+  public void SimulateOneStep(Field field, Field updateField)
+  {
+    TODO...
+  }
 }
